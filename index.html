@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Lidiarnia</title>
+</head>
+<body>
+    <div class="container">
+        <div class=" clearfix">
+            <div class="calc col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                    <h2>Calculadora del Amor de Lidia</h2>
+                    <h5>Elige a los enamorados</h5>
+                    <form role="form" class="form-horizontal">
+                            <div class="form-group">
+                                    <input type="text" class="form-control" name="names" placeholder="Nombre de Lidia" />
+                            </div>
+                            <div class="form-group">
+                                    <input type="text" class="form-control" name="names" placeholder="Nombre de Amante" />
+                            </div>
+                            <div class="form-group">
+                                    <button class="btn btn-danger pull-right" type="submit" id="submit">Calcular</button>
+                            </div>
+                    </form>
+                    <p id="warning" class="text-danger"></p>
+                    <h1 id="result" class="text-center"></h1>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
